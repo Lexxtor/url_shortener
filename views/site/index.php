@@ -14,7 +14,7 @@ $this->title = 'URL shortener';
     <div class="jumbotron">
         <h1><?=$this->title?></h1>
 
-        <?php Pjax::begin()?>
+        <?php Pjax::begin(['enablePushState' => false])?>
         <?php $form = ActiveForm::begin([
             'layout' => 'horizontal',
             'options' => [

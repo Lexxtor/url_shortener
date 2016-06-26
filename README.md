@@ -13,6 +13,9 @@ INSTALLATION
 
 Create MySql database.
 
+In some directory, do: `git clone git@github.com:Lexxtor/url_shortener.git .`
+Make `web` directory accessible via http. 
+
 ### Install with Composer
 
 If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
@@ -23,6 +26,10 @@ Install the project dependences using the following command:
 ~~~
 php composer.phar update
 ~~~
+
+Grand write access to web server for these dirs:
+`runtime`
+`web/assets`
 
 
 CONFIGURATION
